@@ -1,0 +1,15 @@
+.footer {
+  background-color: #032242;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  height: 250px;
+}
+
+.social-col {
+  margin-left: 10px;
+  display: inline-block;
+}

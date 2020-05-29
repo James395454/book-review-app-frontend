@@ -1,0 +1,23 @@
+.suggestion-image {
+  height: 70px;
+  width: 70px;
+}
+
+.suggestion-text {
+  margin-left: 10px;
+}
+
+.books-list {
+  list-style: "none";
+  padding-left: 0;
+}
+
+.books-list-item {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.books-list-item:hover {
+  cursor: pointer;
+  background-color: green;
+}

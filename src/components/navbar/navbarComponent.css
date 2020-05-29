@@ -1,0 +1,37 @@
+.nav-container {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #032242;
+}
+
+.navbar {
+  white-space: nowrap;
+}
+
+.nav-brand {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.input-form {
+  position: relative;
+  width: 70%;
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  flex-flow: nowrap !important;
+}
+
+.input-form:focus-within {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+@media only screen and (max-width: 767px) {
+  .input-form {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,41 @@
+.inner-form {
+  margin: 0px !important;
+}
+.input-container {
+  flex-wrap: nowrap !important;
+}
+
+.search-input {
+  border: none !important;
+}
+
+.search-input:focus {
+  box-shadow: none !important;
+}
+
+.search-icon {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.search-icon:hover {
+  cursor: pointer;
+}
+
+.suggestions-container {
+  overflow: auto;
+  position: absolute;
+  min-height: 50px;
+  max-height: 500px;
+  width: 100%;
+  color: white;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  z-index: 5;
+}
+
+.div-text-align-center {
+  text-align: center;
+  margin-top: 10px;
+}

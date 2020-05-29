@@ -1,0 +1,33 @@
+.detail-row {
+  border: 1px black solid;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+.left-col {
+  border: 1px yellow solid;
+  padding: 20px;
+}
+.content-text {
+  word-break: break-all;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 26;
+  -moz-line-clamp: 26;
+  -ms-line-clamp: 26;
+  line-clamp: 26;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+}
+.content-text::after {
+  content: "";
+}
+
+.book-img {
+  padding: 0;
+  max-width: 100%;
+}
